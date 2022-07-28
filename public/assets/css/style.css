@@ -1,0 +1,38 @@
+
+.img_button{
+    width: 16px;
+    height: 16px;
+}
+
+.img_button_delete{
+
+    width: 16px;
+    height: 16px;
+}
+
+.img_button_rename{
+    width: 16px;
+    height: 16px;
+}
+
+.hide::before{
+    content: "+";
+
+}
+.show::before {
+    content: "-";
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.void::before {
+    content: "*";
+}
+
+.lib {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
